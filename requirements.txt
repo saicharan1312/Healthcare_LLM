@@ -4,3 +4,11 @@ pandas
 wordcloud
 plotly
 squarify
+transformers
+datasets
+evaluate
+duckduckgo-search
+langchain
+streamlit
+openai
+torch
