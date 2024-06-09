@@ -52,11 +52,15 @@ submit=st.button("Generate")
 ## Final response
 if submit:
     disease = get_disease(input_text)
-    drug = get_drug_recommendation(disease)
+
+    # Note: Commented drug recommendation function because LLM agent used for \
+                # incuding browsing capabilities has exceeded the rate limits.
+    
+    #drug = get_drug_recommendation(disease)
 
     response = {
         'disease': disease,
-        'drugs recommended': drug
+        'drugs recommended': []
     }
 
 
